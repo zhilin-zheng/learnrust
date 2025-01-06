@@ -39,4 +39,5 @@ fn main() {
 fn test_gcd() {
     assert_eq!(gcd(333, 444), 111);
     assert_eq!(gcd(3 * 11 * 17 * 19, 2 * 11 * 17 * 29), 11 * 17);
+    assert_eq!(gcd(1, 11), 1);
 }
